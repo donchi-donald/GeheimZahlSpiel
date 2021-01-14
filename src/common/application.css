@@ -1,0 +1,76 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button 
+{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-color: lightgreen;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: blue; 
+}
+
+.text-field {
+    -fx-font-family: "arial";
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+    -fx-font-weight: bolder;
+}
+ 
+.label
+{
+    -fx-font-family: "arial";
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: bolder;
+}
+.root 
+{
+
+
+
+   /*
+   -fx-background-image: url("https://www.google.com/images/srpr/logo3w.png");
+
+   -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-background-color: lightgray;
+     -fx-padding: 10px;
+    -fx-spacing: 5px;
+     -fx-background-insets: 5px;
+    */
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-color: lightgray;
+
+
+
+    /* -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, red, orange, yellow, 
+  green, blue, indigo, violet);*/
+}
+
+#center{
+    -fx-alignment: CENTER;
+
+
+}
+.group
+{
+	-fx-background-color: lightgray;
+}
+
+.text-area {
+    -fx-font-family: "arial";
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+    -fx-display-caret:true;
+}
+
+.text-area .content {
+    -fx-background-color: #000000;
+}

@@ -1,0 +1,2 @@
+VM linux: --module-path resources/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml
+VM windows: --module-path resources/javafx-sdk-11.0.2_Windows/lib --add-modules javafx.controls,javafx.fxml
