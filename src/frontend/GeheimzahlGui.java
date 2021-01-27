@@ -80,7 +80,7 @@ public class GeheimzahlGui extends Application implements SeiteMaker{
         exit = new MenuItem("exit");
         ueber_das_spiel = new MenuItem("über das Spiel");
         autor = new MenuItem("autor");
-
+        // Dans Info la Documentation pour le programme hersteller pour les joueux et pour le  projectleiter
 
         file.getItems().addAll(exit, restart); //MenuItem für das Menu file
         info.getItems().addAll(ueber_das_spiel, autor); //MenuItem für das Menu info
